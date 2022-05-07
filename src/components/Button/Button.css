@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+
+.container {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button__default {
+    display: block;
+    width: fit-content;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 14px;
+    color: #3F3F3F;
+    border: none;
+    padding: 8px 16px;
+    background-color: #E0E0E0;
+    border-radius: 6px;
+    box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+    transition: all 200ms ease-in-out;
+}
+
+.button__default:hover, .button__default:focus {
+
+    background-color: #AEAEAE;
+    cursor: pointer;
+}
+
+.button__outline {
+    display: block;
+    width: fit-content;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 14px;
+    padding: 8px 20px;
+    background-color: white;
+    border-radius: 6px;
+    transition: all 200ms ease-in-out;
+}
+
+
+.button__outline:hover, .button__outline:focus {
+
+    background-color: rgba(41, 98, 255, 0.1);
+    cursor: pointer;
+}
+
+.button__text {
+    display: block;
+    width: fit-content;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 14px;
+    border: none;
+    padding: 8px 20px;
+    background-color: transparent;
+    line-height: 20px;
+    text-align: center;
+    transition: all 200ms ease-in-out;
+
+
+}
+
+.button__text:hover, .button__text:focus {
+
+    display: block;
+    width: fit-content;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 14px;
+    border: none;
+    padding: 8px 20px;
+    background: rgba(41, 98, 255, 0.1);
+    border-radius: 6px;
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
+
+}
+
+.button__sm {
+    padding: 6px 12px !important;
+}
+
+.button__md {
+    padding: 8px 16px !important;
+}
+
+.button__lg {
+    padding: 11px 22px !important;
+}
+
+.button__primary {
+    background-color: #2962FF;
+    box-shadow: 0px 2px 3px rgba(41, 98, 255, 0.2);
+    color: white;
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
+}
+
+.button__primary:hover, .button__primary:focus {
+    background-color: #0039CB;
+
+}
+
+.button__secondary {
+    background-color: #455A64;
+    box-shadow: 0px 2px 3px rgba(69, 90, 100, 0.2);
+    color: white;
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
+}
+
+.button__secondary:hover, .button__secondary:focus {
+    background-color: #1C313A;
+
+}
+
+.button__danger {
+    background-color: #D32F2F;
+    box-shadow: 0px 2px 3px rgba(211, 47, 47, 0.2);
+    color: white;
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
+}
+
+.button__danger:hover, .button__danger:focus {
+    background-color: #9A0007;
+
+}
+
+.icon-start {
+    font-size: 18px;
+    padding: 0;
+    margin-right: 8px;
+}
+
+.icon-end {
+    font-size: 18px;
+    padding: 0;
+    margin-left: 8px;
+}
+
+.color-default {
+    color: #3F3F3F;
+}
+
+.color-primary {
+    color: #3D5AFE;
+}
+
+.color-secondary {
+    color: #455A64;
+}
+
+.color-danger {
+    color: #D32F2F;
+}
+
+.color-white {
+    color: white;
+}
+
+.color-disabled {
+    color: #9E9E9E;
+}
+
+.border-primary {
+    border: 1px solid #3D5AFE;
+}
+
+.border-secondary {
+    border: 1px solid #455A64;
+}
+
+.border-danger {
+    border: 1px solid #D32F2F;
+}
+
+.button__disableShadow {
+
+    box-shadow: none;
+
+}
+
+.button__disabled {
+    display: block;
+    width: fit-content;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 14px;
+    color: #9E9E9E;
+    border: none;
+    padding: 8px 13px;
+    background-color: #E0E0E0;
+    border-radius: 6px;
+
+}
+
+
+.button__disabled-text {
+    display: block;
+    width: fit-content;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 14px;
+    color: #9E9E9E;
+    border: none;
+    padding: 8px 13px;
+    background-color: transparent;
+    line-height: 20px;
+    text-align: center;
+
+}
