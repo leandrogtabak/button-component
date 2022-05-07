@@ -6,7 +6,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://leandrogtabak.github.io/button-component/">
+    <a href="https://leandrogtabak.github.io/button-component-build/">
       Demo
     </a>
     <span> | </span>
